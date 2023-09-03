@@ -4,110 +4,65 @@
 }
 
 .center {
-    padding-left: calc(50% - 384px);
-    padding-right: calc(50% - 384px);
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
+
 .navigation {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #222222;
-}
-
-.left_part {
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 32px;
-
-}
-
-.rigth_part {
-    padding-top: 27px;
-    padding-bottom: 18px;
-    padding-left: 11px;
+    padding: 26px 240px 26px 231px;
+    
 }
 
 .img_1 {
     padding-right: 41px;
-    
 }
 
-.menu {
-    padding-right: 25px;
-}
-
-.login {
-    padding-right: 42px;
-}
-
-.basket {
-    position: relative;
-}
-
-.ellipse {
-    position: absolute;
-    top: -40px;
-    left: 160px;
-}
-
-.ellipse {
-    position: relative;
-}
-
-.ellipse img {
-    position: absolute;
-}
-
-.ellipse p {
-    position: relative;
-    top: 0px;
-    left: 6px;
-}
-
-.purchase {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+.rigth_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+} 
 
 .brand {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     background-color: #F1E4E6;
-    margin-bottom: 65px;
-    
+    margin-bottom: 65px;    
 }
 
 .main_img {
-    padding-right: 39px;
+    margin-right: 63px;
+    
 }
 
 .header_rectangle {
-    padding-right: 16px;
+    padding-right: 12px;
 }
 
 .brand_text {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .fashion {
     display: flex;
     flex-direction: row;
     gap: 10px;
-
 }
 
 .the_brand{
     color: #222;
     font-family: Lato;
-    font-size: 44px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -116,7 +71,7 @@
 .luxery_text{
     color: #222;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -125,7 +80,7 @@
 .fashion_text {
     color: #F16D7F;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -133,15 +88,15 @@
 
 .categories{
     display: grid;
-    grid-template-columns: repeat(3, 232px);
+    grid-template-columns: repeat(3, 360px);
     grid-template-rows: 2;
-    gap: 19px;
-    margin-bottom: 110px;
-    padding-left: calc(50% - 368px);
-    padding-right: calc(50% - 368px);
+    gap: 30px;
+    margin-bottom: 96px;
+    padding-right: calc(50% - 570px);
+    padding-left: calc(50% - 570px);
+   
     
 }
-
 
 .accesories {
     grid-column: span 3;
@@ -152,7 +107,7 @@
     
 }
 
-.image img {
+.img_categories {
 	opacity: 0.3;
 }
 
@@ -166,23 +121,24 @@
 }
 
 .text_possition_1 {
-    top: 60px;
-    left: 40px;
+    top: 105px;
+    left: 103px;
+    
 }
 
 .text_possition_2 {
-    top: 60px;
-    left: 70px;
+    top: 105px;
+    left: 125px;
 }
 
 .text_possition_3 {
-    top: 60px;
-    left: 60px;
+    top: 105px;
+    left: 123px;
 }
 
 .text_possition_4 {
-    top: 40px;
-    left: 290px;
+    top: 65px;
+    left: 491px;
 }
 
 .text_style_1 {
@@ -204,15 +160,14 @@
     line-height: normal;
 }
 
-
-
 .fetured_items {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     justify-items: center;
-    margin-bottom: 73px;
+    margin-bottom: 48px;
+    gap: 6px;
     
    
 }
@@ -238,11 +193,12 @@
 
 .goods {
     display: grid;
-    grid-template-columns: repeat(2, 360px);
+    grid-template-columns: repeat(3, 360px);
     grid-template-rows: 3;
     gap: 16px;
     margin-bottom: 32px;
-
+    padding-right: calc(50% - 570px);
+    padding-left: calc(50% - 570px);
 }
 
 .item {
@@ -250,30 +206,10 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: #F8F8F8;
-    
-
 }
-
-.image_container {
-    position: relative;
-    background-color: #3A3838DB;
-}
-
-.image_container img {
-	opacity: 0.3;
-}
-
-.border_add_to_kard{
-    position: absolute;
-    top: 175px;
-    left: 120px;
-    
-}
-
-
 
 .img_item {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .name {
@@ -283,11 +219,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 13px;
 }
 
-.name_2 {
-    padding-top: 24px;
+.name {
+    padding-bottom: 12px;
+}
+
+.description {
+    padding-bottom: 18px;
 }
 
 .description {
@@ -297,7 +236,6 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    padding-bottom: 18px;
 }
 
 .price {
@@ -307,8 +245,33 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.name_1, .description_1 {
+    padding-bottom: 16px;
+}
+
+.item_1_text {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    background-color: #F7E4E2;
+    padding: 9px 110px 11px 108px;
+    margin-bottom: 24px;
+}
+
+
+.item_text {
+    padding-left: 16px;
+    padding-right: 28px;
     padding-bottom: 20px;
 }
+
 
 .all_product {
     display: flex;
@@ -331,38 +294,44 @@
     line-height: normal;
 }
 
-.item2 {
-    position: relative;
-}
 
-.shadow_card{
-    position: absolute;
-    top: 1084px;
-    left: 752px;
 
-}
-
-.border_add_to_kard {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid #f9f8f8;
-    padding-bottom: 13px;
-    padding-top: 14px;
-    padding-left: 13px;
-    padding-right: 13px;
-}
-
-.text_add_to_kart {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.img_add_to_kart {
-    padding-right: 11px;
-
+@media(min-width: 768px) and (max-width: 1024px) {
+    .center {
+        max-width: 1024px;
+        .basket {
+            position: relative;
+        }
+        
+        .ellipse {
+            position: absolute;
+            top: -40px;
+            left: 160px;
+        }
+        
+        .ellipse {
+            position: relative;
+        }
+        
+        .ellipse img {
+            position: absolute;
+        }
+        
+        .ellipse p {
+            position: relative;
+            top: 0px;
+            left: 6px;
+        }
+        
+        .purchase {
+            color: #FFF;
+            font-family: Lato;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    
+        
 }
