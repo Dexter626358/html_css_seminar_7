@@ -100,11 +100,16 @@
 
 .accesories {
     grid-column: span 3;
+    background: #000;
 }
 
 .image {
     background: #000;
     
+}
+
+.img_accessories {
+    opacity: 0.3;
 }
 
 .img_categories {
@@ -298,40 +303,103 @@
 
 @media(min-width: 768px) and (max-width: 1024px) {
     .center {
-        max-width: 1024px;
-        .basket {
-            position: relative;
-        }
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);      
+    }
+
+    .navigation {
+        padding: 27px 11px 18px 32px;
+    }
+
+    .menu {
+        padding-right: 25px;
+    }
+
+    .login {
+        padding-right: 42px;
+    }
+
+    .rigth_part {
+        gap: 0;
+    }
+
+    .main_img {
+        width: 386px;
+        margin-right: 39px;
+    }
+
+    .header_rectangle {
+        padding-right: 16px;
+    }
+
+    .the_brand {
+        font-size: 44px;
+    }
+
+    .luxery_text {
+        font-size: 24px;
+    }
+
+    .fashion_text {
+        font-size: 24px;
+    }
+
+    .categories {
+        grid-template-columns: repeat(3, 232px);
+        gap: 20px;
+        padding-right: calc(50% - 368px);
+        padding-left: calc(50% - 368px);
+        margin-bottom: 110px;
+    }
+
+    .image {
+        width: 232px;
+    }
+
+    .img_categories {
+        width: 232px;
+    }
+
+    .accessories {
+        width: 735px;
+    }
+
+    .text_possition_1 {
+        top: 59px;
+        left: 39px;
         
-        .ellipse {
-            position: absolute;
-            top: -40px;
-            left: 160px;
-        }
-        
-        .ellipse {
-            position: relative;
-        }
-        
-        .ellipse img {
-            position: absolute;
-        }
-        
-        .ellipse p {
-            position: relative;
-            top: 0px;
-            left: 6px;
-        }
-        
-        .purchase {
-            color: #FFF;
-            font-family: Lato;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-        }
     }
     
-        
+    .text_possition_2 {
+        top: 57px;
+        left: 61px;
+    }
+    
+    .text_possition_3 {
+        top: 58px;
+        left: 59px;
+    }
+    
+    .text_possition_4 {
+        top: 33px;
+        left: 288px;
+    }
+
+    .fetured_items {
+        gap: 3px;
+        margin-bottom: 73px;
+    }
+
+    .goods {
+        grid-template-columns: repeat(2, 360px);
+        padding-right: calc(50% - 368px);
+        padding-left: calc(50% - 368px);
+    }
+
+    .all_product {
+        margin-bottom: 85px;
+    }
+
+
+
 }
